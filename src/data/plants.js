@@ -1,0 +1,68 @@
+export const plants = [
+  {
+    id: 1,
+    name: 'Snake Plant',
+    category: 'Air Purifying',
+    price: 18,
+    image: 'https://images.unsplash.com/photo-1593482892290-f54927ae2b7b?auto=format&fit=crop&w=800&q=85',
+    description: 'A hardy, sculptural plant that thrives with little attention.',
+  },
+  {
+    id: 2,
+    name: 'Monstera Deliciosa',
+    category: 'Tropical',
+    price: 32,
+    image: 'https://images.unsplash.com/photo-1614594975525-e45190c55d0b?auto=format&fit=crop&w=800&q=85',
+    description: 'A statement-making tropical plant with iconic split leaves.',
+  },
+  {
+    id: 3,
+    name: 'Peace Lily',
+    category: 'Air Purifying',
+    price: 24,
+    image: 'https://images.unsplash.com/photo-1593691509543-c55fb32e5cee?auto=format&fit=crop&w=800&q=85',
+    description: 'Elegant deep-green foliage with graceful white blooms.',
+  },
+  {
+    id: 4,
+    name: 'Golden Pothos',
+    category: 'Easy Care',
+    price: 16,
+    image: 'https://images.unsplash.com/photo-1616690241421-4c6c4b5a5c2c?auto=format&fit=crop&w=800&q=85',
+    description: 'A trailing favourite that brings lush greenery to shelves.',
+  },
+  {
+    id: 5,
+    name: 'Rubber Plant',
+    category: 'Statement Plants',
+    price: 29,
+    image: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=85',
+    description: 'Glossy leaves and a bold look for a bright room.',
+  },
+  {
+    id: 6,
+    name: 'ZZ Plant',
+    category: 'Easy Care',
+    price: 22,
+    image: 'https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=800&q=85',
+    description: 'A low-maintenance plant with shiny, upright foliage.',
+  },
+  {
+    id: 7,
+    name: 'Bird of Paradise',
+    category: 'Tropical',
+    price: 45,
+    image: 'https://images.unsplash.com/photo-1597055181300-e3633a917c2a?auto=format&fit=crop&w=800&q=85',
+    description: 'Large tropical leaves that make a room feel like a retreat.',
+  },
+  {
+    id: 8,
+    name: 'Aloe Vera',
+    category: 'Succulents',
+    price: 14,
+    image: 'https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=800&q=85',
+    description: 'A sun-loving succulent with fleshy, architectural leaves.',
+  },
+];
+
+export const categories = [...new Set(plants.map((plant) => plant.category))];
